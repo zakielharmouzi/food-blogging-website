@@ -1,64 +1,69 @@
+// Articles.js
 import React, { useState } from "react";
-import { Link } from 'react-router-dom';
-import Article1 from "./articles/Article1";
-import Article2 from "./articles/Article2"; // Similarly create Article2.js
-import Article3 from "./articles/Article3"; // Similarly create Article3.js
+import { useNavigate } from "react-router-dom";
 
-
-
+// Article data with image URLs
 const firstArticles = [
 	{
 		name: "Grilled Tomatoes at Home",
-		url: "images/firstArticles/grilled-tomatoes-1-846x846 3.png",
-		text: "PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley....",
+		url: "images/tajine.png", // Updated image URL
+		text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley....",
 	},
 	{
 		name: "Snacks for Travel",
-		url: "images/firstArticles/grilled-tomatoes-1-846x846 4.png",
-		text: "PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley....",
+		url: "images/tajine.png", // Updated image URL
+		text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley....",
 	},
 	{
 		name: "Post-workout Recipes",
-		url: "images/firstArticles/grilled-tomatoes-1-846x846 5.png",
-		text: "PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley....",
+		url: "images/tajine.png", // Updated image URL
+		text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley....",
 	},
 ];
 
 const secondArticles = [
 	{
-		name: "How to Grill corn",
-		url: "images/secondArticles/grilled-tomatoes-1-846x846 6.png",
-		text: "PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley....",
+		name: "How to Grill Corn",
+		url: "images/tajine.png", // Updated image URL
+		text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley....",
 	},
 	{
 		name: "Crunchwrap Supreme",
-		url: "images/secondArticles/grilled-tomatoes-1-846x846 7.png",
-		text: "PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley....",
+		url: "images/tajine.png", // Updated image URL
+		text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley....",
 	},
 	{
 		name: "Broccoli Cheese Soup",
-		url: "images/secondArticles/grilled-tomatoes-1-846x846 8.png",
-		text: "PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley....",
+		url: "images/tajine.png", // Updated image URL
+		text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley....",
 	},
 ];
 
 const Articles = () => {
 	const [counter, setCounter] = useState(1);
+	const navigate = useNavigate();
 
-	let cardsList = [];
-    if (counter === 2) {
-        cardsList = [
-            { name: "Article 2", component: <Article2 /> },
-            { name: "Article 3", component: <Article3 /> },
-        ];
-    } else {
-        cardsList = [
-            { name: "Grilled Tomatoes at Home", component: <Article1 /> },
-            { name: "Snacks for Travel", component: <Article2 /> },
-            { name: "Post-workout Recipes", component: <Article3 /> },
-        ];
-    }
+	let cardsList;
+	if (counter === 2) {
+		cardsList = secondArticles;
+	} else {
+		cardsList = firstArticles;
+	}
 
+	const handleNext = () => {
+		setCounter(2);
+		navigate(`/articles/page/2`);
+	};
+
+	const handlePrev = () => {
+		setCounter(1);
+		navigate(`/articles/page/1`);
+	};
+
+	const handleReadMore = (name) => {
+		const formattedName = name.replace(/\s+/g, '-').toLowerCase(); // Format name for URL
+		navigate(`/articles/${formattedName}`);
+	};
 
 	return (
 		<div className="flex flex-col p-10 pt-16 lg:px-36">
@@ -81,25 +86,27 @@ const Articles = () => {
 							<span className="text-sm lg:text-xs line-clamp-5 lg:line-clamp-3">
 								{item?.text}
 							</span>
-							<Link to={`/articles/${item.name}`} className="border border-black p-2 px-5 text-sm rounded-full">
+							<button
+								onClick={() => handleReadMore(item.name)}
+								className="border border-black p-2 px-5 text-sm rounded-full">
 								Read More
-							</Link>
+							</button>
 						</div>
 					</div>
 				))}
 			</div>
 
-			{/* button */}
-			<div className="flex justify-center items-center space-x-4 text-sm py-10">
+			{/* Pagination buttons */}
+			<div className=" flex justify-center items-center space-x-4 text-sm py-10 ">
 				<button
 					onClick={() => setCounter(1)}
-					className="w-6 pb-1 px-1 rounded-md border border-slate-700 visited:bg-slate-200">
+					className=" w-6 pb-1 px-1 rounded-md border border-slate-700 visited:bg-slate-200 ">
 					&lt;
 				</button>
-				<span className="text-xl">{counter}/2</span>
+				<span className=" text-xl">{counter}/2</span>
 				<button
 					onClick={() => setCounter(2)}
-					className="w-6 pb-1 px-1 rounded-md border border-slate-700 visited:bg-slate-200">
+					className=" w-6 pb-1 px-1 rounded-md border border-slate-700 visited:bg-slate-200 ">
 					&gt;
 				</button>
 			</div>
@@ -107,4 +114,4 @@ const Articles = () => {
 	);
 };
 
-export default Articles;	
+export default Articles;

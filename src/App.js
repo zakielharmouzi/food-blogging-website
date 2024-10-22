@@ -3,9 +3,9 @@ import "./App.css";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
-import Article1 from "./components/Articles/article1";
-import Article2 from "./components/Articles/article2";
-import Article3 from "./components/Articles/article3";
+import Article1 from "./components/articles/article1";
+import Article2 from "./components/articles/article2";
+import Article3 from "./components/articles/article3";
 
 
 const Layout = () => {
