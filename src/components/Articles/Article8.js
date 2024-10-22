@@ -36,7 +36,7 @@ const Article8 = () => {
                 <div className="main-content w-full lg:w-1/2 p-4">
                     {/* Billet d'Humeur Section */}
                     <div className="billet-dhumeur p-10 bg-slate-50 rounded-lg shadow-md">
-                        <h1 className="text-2xl font-bold text-[#0E2368] mb-4">Manger Sainement à l’AUI : Mon Expérience</h1>
+                        <h1 className="text-2xl font-bold text-[#0E2368] mb-4">Manger Sainement à l’AUI : Une Expérience Surprenante</h1>
                         <h2 className="text-xl font-semibold text-[#0E2368] mb-2">Par: Mohamed Abbas</h2>
                         <h3 className="text-lg font-semibold text-[#0E2368] mb-2">Date: 22/10/2024</h3>
                         <h3 className="text-lg font-semibold text-[#0E2368] mb-2">Catégorie: Blog</h3>
@@ -52,21 +52,25 @@ const Article8 = () => {
 
                         {/* Article Text */}
                         <p className="text-sm text-gray-700 mb-2">
-                            Salut, c’est Mohamed Abbas ! Aujourd'hui, je vais discuter de l'importance de manger sainement à AUI. Avant, je pensais que c'était compliqué et cher, mais je découvre que manger bien peut être facile et économique.
+                        Découvrir l'importance de manger sainement à AUI a été une révélation pour moi. Avant, je pensais que c'était compliqué et coûteux, mais j’ai appris que manger équilibré peut être simple et abordable.
                         </p>
+                        <h2 className="font-bold">L'Impact de la Malbouffe</h2>
                         <p className="text-sm text-gray-700 mb-2">
-                            Quand je mange des fast-foods et des snacks, je me sens fatigué, comme une fleur qui perd ses pétales. C’est difficile de me concentrer sur mes études. Mais quand je mange des fruits, des légumes, et des plats faits maison, je me sens comme un roi. Manger sain me donne de l'énergie, et je peux mieux réfléchir. C'est essentiel pour réussir à l'école et dans ma vie.
+                        Les fast-foods et les snacks ont souvent un effet négatif sur mon énergie, me laissant fatigué comme une fleur fanée. La concentration devient alors difficile. À l’inverse, consommer des fruits, des légumes et des plats faits maison me redonne de la vitalité. Manger sainement booste non seulement mon énergie, mais aussi ma clarté mentale, essentielle pour réussir à l’école et dans la vie.
                         </p>
+                        <h2 className="font-bold">Manger Sainement à Petit Prix</h2>
                         <p className="text-sm text-gray-700 mb-2">
-                            Beaucoup de gens disent que manger sain coûte cher. Mais ce n’est pas vrai ! Je vais au Souk du dimanche pour acheter des fruits et légumes frais. C’est moins cher que dans les supermarchés. Par exemple, j’achète des tomates, des oignons, et des courgettes à bon prix. Mon cœur se réjouit.
+                        Beaucoup pensent que manger sainement revient cher. Pourtant, ce n'est pas le cas ! Chaque dimanche, je vais au Souk pour acheter des fruits et légumes frais à des prix raisonnables. Par exemple, les tomates, les oignons et les courgettes sont bien moins chers qu’au supermarché, ce qui est un vrai plaisir pour mon portefeuille.
                         </p>
+                        <h2 className="font-bold">L'Impact de la Malbouffe</h2>
                         <p className="text-sm text-gray-700 mb-2">
-                            Certaines personnes disent : « Je n’ai pas le temps de cuisiner. » Je comprends, on est tous occupés comme des abeilles. Mais on peut préparer des plats sains en seulement 15-20 minutes. Parfois, je cuisine le dimanche et je garde de la nourriture pour la semaine. Cela me fait gagner du temps, et je peux me concentrer sur mes études.
+                        Certains disent : « Je n’ai pas le temps de cuisiner. » Je comprends, nous sommes tous très occupés. Cependant, préparer des repas sains peut prendre seulement 15 à 20 minutes. Parfois, je cuisine le dimanche et je conserve les plats pour la semaine. Cela me permet de gagner du temps et de rester concentré sur mes études.
                         </p>
+                        <h2 className="font-bold">L'Recette Express : Couscous aux Légumes</h2>
 
                         {/* Recipe Section */}
                         <p className="text-sm text-gray-700 mb-2">
-                            Voici une recette rapide que j'adore faire : du couscous aux légumes.
+                        Je vous partage ici une de mes recettes préférées, simple et rapide à réaliser
                         </p>
                         <p className="text-sm text-gray-700 mb-2">
                             <strong>Ingrédients :</strong> <br />
@@ -86,7 +90,7 @@ const Article8 = () => {
 
                         {/* Conclusion */}
                         <p className="text-sm text-gray-700 mb-2">
-                            Et voilà, c'est sain, rapide, et pas cher ! Manger bien me donne plus d’énergie, et mon esprit danse. Pourquoi ne pas essayer ?
+                        Et voilà ! Un plat sain, rapide et économique qui me donne de l’énergie et de la bonne humeur. Pourquoi ne pas essayer ?
                         </p>
                     </div>
                 </div>
