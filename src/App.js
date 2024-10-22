@@ -10,6 +10,7 @@ import Article4 from "./components/Articles/Article4";
 import Article5 from "./components/Articles/Article5";
 import Article6 from "./components/Articles/Article6";
 import Article7 from "./components/Articles/Article7";
+import Article8 from "./components/Articles/Article8";
 
 const Layout = () => {
 	return (
@@ -33,6 +34,7 @@ function App() {
 			<Route path="/Articles/mes-place-favoris" element={<Article5 />} />
 			<Route path="/Articles/innovation-faite-de-la-bonne-façon" element={<Article6 />} />
 			<Route path="/Articles/bien-manger-à-aui-sans-se-ruiner" element={<Article7 />} />
+			<Route path="/Articles/manger-sainement-à-aui" element={<Article8 />} />
 
         	</Routes>
 		</div>

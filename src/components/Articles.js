@@ -46,10 +46,10 @@ const firstArticles = [
 		category: "Economy",
 	},
 	{
-		name: "Bien Manger à AUI Sans Se Ruiner",
-		url: "images/ilyas4.jpg", // Updated image URL
+		name: "Manger Sainement à AUI",
+		url: "images/grp1.png", // Updated image URL
 		text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry....",
-		category: "Economy",
+		category: "Recipes",
 	},
 
 	// {
