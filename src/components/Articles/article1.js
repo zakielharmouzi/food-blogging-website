@@ -31,6 +31,7 @@ const Article1 = () => {
                     alt="Tajine Advertisement"
                     className="max-w-full h-80" />
             </div>
+            {/* adadada */}
 
             <div className="main-content w-full lg:w-1/2 p-4">
                 {/* <h1>Grilled Tomatoes at Home</h1>
