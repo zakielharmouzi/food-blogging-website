@@ -1,7 +1,7 @@
 import Footer from '../Footer';
 import React from 'react';
 
-const Article1 = () => {
+const Article_template = () => {
     return (
         
         <>
@@ -174,4 +174,4 @@ Descrip tion automatically generatedmanger à AUI, c'est facile ! </h1>
     );
 };
 
-export default Article1;
+export default Article_template;
