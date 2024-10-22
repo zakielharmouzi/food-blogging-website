@@ -79,7 +79,7 @@ const Articles = () => {
 			</div>
 
 			{/* cards */}
-			<div className="flex flex-col space-y-7 items-center lg:items-baseline lg:flex-row justify-between">
+			<div className="flex flex-col space-y-7 items-center space-x-1.5 lg:items-baseline lg:flex-row justify-between">
 				{cardsList.map((item) => (
 					 <div key={item.name}  
 					 className="flex flex-col border w-80 lg:w-[22rem] border-slate-300 bg-slate-50 rounded-3xl p-4"  
