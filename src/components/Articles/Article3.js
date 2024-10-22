@@ -48,9 +48,9 @@ const Article3 = () => {
                     <h3 className="text-lg font-semibold text-[#0E2368] mb-2">Catégorie: Billet d'Humeur</h3>
                 <div className="flex items-center justify-center ">
                     <img
-                        src="../images/proof1.jpg"
+                        src="../images/nissrine6.jpg"
                         alt="Abdouh"
-                        className="w-80 h-80 rounded-lg mb-4 shadow-md pd-4"
+                        className="w-90 h-80 rounded-lg mb-4 shadow-md pd-4"
                     />
                 </div>
                 <></>

@@ -46,7 +46,7 @@ const firstArticles = [
 		category: "Economy",
 	},
 	{
-		name: "",
+		name: "Bien Manger à AUI Sans Se Ruiner",
 		url: "images/ilyas4.jpg", // Updated image URL
 		text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry....",
 		category: "Economy",
