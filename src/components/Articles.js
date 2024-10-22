@@ -33,6 +33,24 @@ const firstArticles = [
 		text: "A refreshing and easy pasta salad recipe for summer....",
 		category: "Recipes",
 	},
+	{
+		name: "Innovation faite de la bonne façon",
+		url: "images/ilyas1.jpeg", // Updated image URL
+		text: "A refreshing and easy pasta salad recipe for summer....",
+		category: "innovation",
+	},
+	{
+		name: "Bien Manger à AUI Sans Se Ruiner",
+		url: "images/ilyas4.jpg", // Updated image URL
+		text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry....",
+		category: "Economy",
+	},
+	{
+		name: "",
+		url: "images/ilyas4.jpg", // Updated image URL
+		text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry....",
+		category: "Economy",
+	},
 
 	// {
 	// 	name: "Delicious Pasta Salad",

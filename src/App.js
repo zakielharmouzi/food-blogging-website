@@ -8,6 +8,8 @@ import Article2 from "./components/Articles/Article2";
 import Article3 from "./components/Articles/Article3";
 import Article4 from "./components/Articles/Article4";
 import Article5 from "./components/Articles/Article5";
+import Article6 from "./components/Articles/Article6";
+import Article7 from "./components/Articles/Article7";
 
 const Layout = () => {
 	return (
@@ -29,6 +31,8 @@ function App() {
             <Route path="/Articles/mon-cuisine-étudiante-!" element={<Article3 />} />
 			<Route path="/Articles/mon-sauce-favoris" element={<Article4 />} />
 			<Route path="/Articles/mes-place-favoris" element={<Article5 />} />
+			<Route path="/Articles/innovation-faite-de-la-bonne-façon" element={<Article6 />} />
+			<Route path="/Articles/bien-manger-à-aui-sans-se-ruiner" element={<Article7 />} />
 
         	</Routes>
 		</div>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Article2 = () => {
+const Article6 = () => {
     return (
         
         <>
@@ -42,53 +42,35 @@ const Article2 = () => {
 
                 {/* New Billet d'Humeur Section */}
                 <div className="billet-dhumeur p-10 bg-slate-50 rounded-lg shadow-md">
-                    <h1 className="text-2xl font-bold text-[#0E2368] mb-4">“The Astonishing food prices” à Ifrane </h1>
-                    <h2 className="text-xl font-semibold text-[#0E2368] mb-2">Par: Zakaria Elharmouzi</h2>
+                    <h1 className="text-2xl font-bold text-[#0E2368] mb-4">Innovation faite de la bonne façon </h1>
+                    <h2 className="text-xl font-semibold text-[#0E2368] mb-2">Par: Ilyas Remmal</h2>
                     <h3 className="text-lg font-semibold text-[#0E2368] mb-2">Date: 12/12/2022</h3>
                     <h3 className="text-lg font-semibold text-[#0E2368] mb-2">Catégorie: Billet d'Humeur</h3>
                 <div className="flex items-center justify-center ">
                     <img
-                        src="../images/proof1.jpg"
+                        src="../images/ilyas2.jpg"
                         alt="Abdouh"
-                        className="w-80 h-80 rounded-lg mb-4 shadow-md pd-4"
-                    />
-                     <img
-                        src="../images/proof2.jpg"
-                        alt="Abdouh"
-                        className="w-80 h-100 rounded-lg mb-4 shadow-md pd-4 ml-4"
+                        className="w-120 h-80 rounded-lg mb-4 shadow-md pd-4"
                     />
                 </div>
                 <></>
 
                     <p className="text-sm text-gray-700 mb-2">
-                       
+                    L'innovation est au centre des affaires, une entreprise qui innove est une entreprise qui réussit. C’est le cas pour la marque marocaine Chergui, qui produit des différentes gammes de prix laitiers. Cette année, l'entreprise leader au marché des produits laitier marocain, a lancé un nouveau pro innovant, Chergui Sport. Un yaourt à boire bien protéiné, destiné aux sportifs. Depuis son lancement, ce produit a eu un grand succès, moi-même je l’ai acheté, et j’ai beaucoup aimé les différents goûts. Le premier, c’est le goût de banane, le deuxième c’est le goût de vanille, et le troisième, c’est le goût de mangue. Ce produit nutritif, est vendu en deux tailles : celle de 450 g et l’autre de 900 g. 
                     </p>
                     <p className="text-sm text-gray-700 mb-2">
-                    Quand je suis arrivé ce semestre à Al Akhawayn, je m'attendais à ce que les prix restent à peu près les mêmes, autant à l'université qu'en ville. Mais j'ai vite remarqué que les prix, surtout pour la nourriture, ont augmenté sans raison claire. Cette hausse concerne autant l'université qu'Ifrane en général, et elle affecte tout le monde ici, particulièrement les étudiants. Le problème devient de plus en plus sérieux pour nous.
-                    </p>
-                    <h2 className="font-bold">Les prix à l'université</h2>
-                    <p className="text-sm text-gray-700 mb-2">
-                    Je suis vraiment surpris de voir la différence entre les prix des semestres passés et ceux de ce semestre. Les plats dans les restos de l'université, les boissons à la cafétéria, et même les snacks dans les magasins, tout coûte plus cher. C'est plutôt drôle qu'ils pensent qu'on peut se permettre ça alors qu'on a tous des budgets limités. Les responsables semblent croire qu'on a toujours assez d'argent, mais honnêtement, ce n’est pas toujours le cas.
+                    À mon avis, le succès de ce nouveau produit est lié à sa très bonne qualité et à la campagne de marketing très créative utilisée par l’entreprise. Cette dernière était basée sur le sponsoring de différents athlètes très connus au Maroc, comme Youssef Bakkali, fameux athlète ayant plusieurs médailles d’or dans les courses de grandes distances, même au derniers Jeux Olympiques à Paris. Personnellement, je consomme ce yaourt à boire souvent et surtout dans les périodes où je m'entraîne régulièrement car son contenu bien protéiné me permet de consommer les macronutriments dont j’ai besoin pour nourrir et soutenir la croissance de mes muscles.
                     </p>
                     <p className="text-sm text-gray-700 mb-2">
-                    Beaucoup d’étudiants se tournent vers des fast-foods comme BoysFood, car il n'y a pas d'autres alternatives abordables. Comme moi, je me retrouve souvent à manger de la malbouffe ou à me priver de nourriture quand mon cashwallet se vide au milieu du semestre. Avec ces prix, il m'est impossible de faire durer mon cashwallet jusqu'à la fin.
+                    Pour conclure, l'innovation est très importante, et dans le cas de Chargé Sport, l'innovation a permis de créer un produit très populaire et nutritif, et je vous invite tous à l'essayer.
                     </p>
-                    <h2 className="font-bold" >Les prix à Ifrane</h2>
-                    <p className="text-sm text-gray-700 mb-2">
-                    Une solution simple pour régler ce problème serait de cuisiner nous-mêmes. Mais imagine ma frustration en découvrant que l'université ne vend pas de produits de cuisine comme des légumes et des fruits. Et le choc est encore plus grand quand on réalise que ces produits coûtent bien plus cher dans les magasins d’Ifrane que dans d'autres villes !
-                    </p>
-                    <p className="text-sm text-gray-700 mb-2">
-                    Les magasins à Ifrane exagèrent souvent les prix des produits, et cela devient frustrant. La différence avec des villes comme Azrou est énorme. Leur justification ? "Ntoma wlad Al Akhawayn", comme si cela était un prétexte pour gonfler les prix. C'est injuste pour nous, étudiants avec des moyens limités, ainsi que pour nos parents qui voient notre lutte pour bien manger.
-                    </p>
+            
                     
-                    <p className="text-sm text-gray-700 mb-2 ">
-                    Ensemble, nous devons exiger une réduction des prix des produits alimentaires et une meilleure accessibilité aux ressources de base. Nous ne pouvons pas laisser les difficultés financières nuire à notre bien-être et à notre capacité à réussir nos études.
-                    Il est tres crucial que les responsables comprennent que nous ne sommes pas des « wlad L Akhawayn » à part entière, mais des étudiants avec des besoins et des réalités financières, Comme tous les autres etudiants au maroc.
-                    </p>
-                    <p className="font-bold	text-sm text-gray-700 mb-2 ">
-                   ARRÊTEZ D’ABUSER
-                    </p>
+                    
                 </div>
+
+               
+
                
             </div>
 
@@ -165,4 +147,4 @@ const Article2 = () => {
     );
 };
 
-export default Article2;
+export default Article6;
