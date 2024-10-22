@@ -23,9 +23,9 @@ function App() {
 		<div className="">
 			 <Routes>
             <Route path="/" element={<Layout />} />
-            <Route path="/articles/Grilled Tomatoes at Home" element={<Article1 />} />
-            <Route path="/articles/Snacks for Travel" element={<Article2 />} />
-            <Route path="/articles/Post-workout Recipes" element={<Article3 />} />
+            <Route path="/articles/Grilled-Tomatoes-at-Home" element={<Article1 />} />
+            <Route path="/articles/Snacks-for-Travel" element={<Article2 />} />
+            <Route path="/articles/Post-workout-Recipes" element={<Article3 />} />
         	</Routes>
 		</div>
 	);

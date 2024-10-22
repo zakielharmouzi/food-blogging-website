@@ -19,6 +19,12 @@ const firstArticles = [
 		url: "images/tajine.png", // Updated image URL
 		text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley....",
 	},
+	{
+		name: "Delicious Pasta Salad",
+		url: "images/tajine.png", // Updated image URL
+		text: "A refreshing and easy pasta salad recipe for summer aaaaaaaaaaaaaaaaaaa Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.....",
+
+	}, // New fourth card
 ];
 
 const secondArticles = [
