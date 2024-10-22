@@ -46,7 +46,7 @@ const Article4 = () => {
                     <h1 className="text-2xl font-bold text-[#0E2368] mb-4">La sauce soja : ma meilleure amie pour des repas rapides !
 Quand la fin de mois inspire la cuisine étudiante.
 </h1>
-                    <h2 className="text-xl font-semibold text-[#0E2368] mb-2">Par: AUI Student</h2>
+                    <h2 className="text-xl font-semibold text-[#0E2368] mb-2">Par: Nisrine Sadik</h2>
                     <h3 className="text-lg font-semibold text-[#0E2368] mb-2">Date: 12/12/2022</h3>
                     <h3 className="text-lg font-semibold text-[#0E2368] mb-2">Catégorie: Blog</h3>
                     <p className="text-sm text-gray-700 mb-2">

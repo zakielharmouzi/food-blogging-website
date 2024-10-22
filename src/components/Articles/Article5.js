@@ -38,7 +38,7 @@ const Article5 = () => {
                         <h1 className="text-2xl font-bold text-[#0E2368] mb-4">
                             Les Meilleures Adresses Étudiantes à Ifrane : Où Manger Bien et Pas Cher !
                         </h1>
-                        <h2 className="text-xl font-semibold text-[#0E2368] mb-2">Par: AUI Student</h2>
+                        <h2 className="text-xl font-semibold text-[#0E2368] mb-2">Par: Zakaria Elharmouzi</h2>
                         <h3 className="text-lg font-semibold text-[#0E2368] mb-2">Date: 12/12/2022</h3>
                         <h3 className="text-lg font-semibold text-[#0E2368] mb-2">Catégorie: Blog</h3>
 
@@ -48,26 +48,61 @@ const Article5 = () => {
                         </p>
 
                         <h2 className="font-bold">1. Azgourou Mountain : Un Tajine au Cœur de la Nature</h2>
+                        <div className="flex items-center justify-center ">
+                    <img
+                        src="../images/zakaria1.jpg"
+                        alt="Abdouh"
+                        className="w-80 h-80 rounded-lg mb-4 shadow-md pd-4"
+                    />
+                </div>
                         <p className="text-sm text-gray-700 mb-2">
                         Rien de tel qu’un délicieux tajine après une balade en pleine nature. À Azgourou Mountain, les montagnes t’appellent, et les arbres semblent te chuchoter des secrets d’autrefois. Pendant que tu savoures un tajine fumant, les singes deviennent tes compagnons de table. L'air pur te chuchote à l'oreille que tout va bien et le tajine, cuit lentement au feu de bois, te prend dans ses bras pour un réconfort total. Voilà un vrai festin sauvage, où même les soucis s’évaporent comme la vapeur du tajine !
                         </p>
 
                         <h2 className="font-bold">2. Hani : Pour les Gourmands au Grand Cœur</h2>
+                        <div className="flex items-center justify-center ">
+                    <img
+                        src="../images/zakaria2.jpg"
+                        alt="Abdouh"
+                        className="w-80 h-80 rounded-lg mb-4 shadow-md pd-4"
+                    />
+                </div>
                         <p className="text-sm text-gray-700 mb-2">
                         Si tu as une envie irrésistible de douceur, Hani est l’endroit rêvé. Les pâtisseries te font les yeux doux derrière la vitrine, te promettant une histoire d'amour sucrée à chaque bouchée. Les gaufres y sont si croustillantes qu'elles chantent sous tes dents, et les gâteaux te murmurent des mots doux à l’oreille. Que tu célèbres un succès ou simplement la fin de la journée, Hani sait comment mettre du sucre dans ta vie à petit prix !
                         </p>
 
                         <h2 className="font-bold">3. For You : Une Soirée Inoubliable</h2>
+                        <div className="flex items-center justify-center ">
+                    <img
+                        src="../images/zakaria3.jpg"
+                        alt="Abdouh"
+                        className="w-80 h-80 rounded-lg mb-4 shadow-md pd-4"
+                    />
+                </div>
                         <p className="text-sm text-gray-700 mb-2">
                         Envie de sortir un peu plus tard ? For You est le restaurant parfait pour faire danser tes papilles jusqu'au bout de la nuit. Les pizzas croustillantes te font de l'œil, les burgers juteux te séduisent dès le premier regard, et les options légères te font un clin d'œil complice si tu surveilles ta ligne. L’ambiance est toujours au rendez-vous, et For You sait comment transformer une simple soirée en festin amical. C’est l’endroit où la nuit tombe amoureux de ta faim !
                         </p>
 
                         <h2 className="font-bold">4. Khalti : Le Ftour à Petit Prix</h2>
+                        <div className="flex items-center justify-center ">
+                    <img
+                        src="../images/zakaria4.jpg"
+                        alt="Abdouh"
+                        className="w-80 h-80 rounded-lg mb-4 shadow-md pd-4"
+                    />
+                </div>
                         <p className="text-sm text-gray-700 mb-2">
                         Le matin à Ifrane, rien de mieux qu’un bon ftour pour bien commencer la journée, et Khalti est l’adresse parfaite. Les msemen dorés t’accueillent avec un sourire croustillant, et l’omelette généreuse t’enlace pour te donner de l’énergie. À Khalti, chaque plat te parle comme une tante attentionnée, te rappelant les petits déjeuners en famille. Ici, le goût de l’amour est dans chaque bouchée, et le petit prix ne fait qu’ajouter à la chaleur de l’accueil.
                         </p>
 
                         <h2 className="font-bold">5. Crepito : La Créativité Culinaire</h2>
+                        <div className="flex items-center justify-center ">
+                    <img
+                        src="../images/zakaria5.jpg"
+                        alt="Abdouh"
+                        className="w-80 h-80 rounded-lg mb-4 shadow-md pd-4"
+                    />
+                </div>
                         <p className="text-sm text-gray-700 mb-2">
                         Crepito, c’est le temple des pizzas et des sandwichs à concepts originaux. Les saveurs se bousculent dans ton assiette, créant des explosions de goûts inattendues. Les pizzas s'invitent à ta table avec des combinaisons audacieuses, et les sandwichs te racontent des histoires épicées. Crepito, c’est plus qu’un simple repas : c’est un tour de magie culinaire, où chaque bouchée t’embarque dans une aventure sans te vider les poches. Ici, la créativité est au rendez-vous, et ton estomac te dira merci !
                         </p>
