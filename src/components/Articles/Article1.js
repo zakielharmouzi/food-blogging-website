@@ -42,8 +42,7 @@ const Article1 = () => {
 
                 {/* New Billet d'Humeur Section */}
                 <div className="billet-dhumeur p-10 bg-slate-50 rounded-lg shadow-md">
-                    <h1 className="text-2xl font-bold text-[#0E2368] mb-4">Faire du sport et bien A person standing in front of a mirror
-Descrip tion automatically generatedmanger à AUI, c'est facile ! </h1>
+                    <h1 className="text-2xl font-bold text-[#0E2368] mb-4">Faire du sport et bien manger à AUI, c'est facile !</h1>
                     <h2 className="text-xl font-semibold text-[#0E2368] mb-2">Par: Mohamed Abbas</h2>
                     <h3 className="text-lg font-semibold text-[#0E2368] mb-2">Date: 12/12/2022</h3>
                     <h3 className="text-lg font-semibold text-[#0E2368] mb-2">Catégorie: Billet d'Humeur</h3>
@@ -57,44 +56,22 @@ Descrip tion automatically generatedmanger à AUI, c'est facile ! </h1>
                 <></>
 
                     <p className="text-sm text-gray-700 mb-2">
-                        Salut mes amis, je découvre quelque chose de vraiment cool. Mon ami Abdouh, un étudiant
-                        comme nous, est aussi coach sportif ! Oui, un coach ici, à AUI. Il créé son programme, "Kad’s
-                        Plan". Avec lui, tu peux faire du sport, bien manger, et tout ça sans dépenser votre argent. Ça me
-                        motive beaucoup. Je me dis pourquoi pas ?
+                    Salut à tous ! Aujourd'hui, je veux vous partager une découverte super intéressante : mon ami Abdouh, étudiant comme nous, est aussi coach sportif ! Oui, un coach ici, à AUI, qui a créé son propre programme appelé "Kad’s Plan". Avec lui, on peut faire du sport, bien manger, et tout ça sans dépenser une fortune. Franchement, ça me motive beaucoup. Alors, pourquoi ne pas essayer ?
                     </p>
                     <p className="text-sm text-gray-700 mb-2">
-                        Je pense que manger sainement, c’est difficile. Beaucoup de gens disent qu’il faut acheter
-                        des aliments chers ou passer beaucoup de temps à cuisiner. Moi, je n’ai pas le temps et pas d’argent
-                        pour ça ! Mais mon ami Abdouh me montre que c’est possible. Il a des idées de repas simples et
-                        pas chers. Il me conseille de préparer mes repas. C’est un grand changement pour moi. Au lieu de
-                        penser à chaque repas, je prépare tout en une fois pour plusieurs jours. Par exemple, je fais cuire
-                        du riz et du poulet un soir, et je peux les manger toute la semaine avec des légumes différents.
-                        C’est pratique et ça me fait gagner du temps. Je ne pensais pas que c’était si simple. Maintenant,
-                        je ne suis plus stressé pour les repas, et je mange mieux !
+                    Manger sainement peut sembler compliqué : beaucoup disent qu'il faut des aliments coûteux ou passer du temps à cuisiner. Moi, je n’ai ni le temps ni le budget pour ça ! Mais Abdouh m'a prouvé que c’est possible avec des repas simples et économiques. Il m'a conseillé de préparer mes repas à l’avance. Par exemple, je cuisine du riz et du poulet pour la semaine et j’ajoute des légumes différents chaque jour. C’est pratique, rapide, et je gagne du temps. Je ne pensais pas que ce serait aussi simple ! Maintenant, je suis moins stressé pour mes repas, et je mange mieux.
                     </p>
                     <p className="text-sm text-gray-700 mb-2">
-                        Pour le sport, Abdouh ne donne pas seulement des conseils, il m’accompagne à la salle de
-                        sport. Je vais m’entraîner avec lui plusieurs fois par semaine. Nous faisons des exercices pour les
-                        bras, les jambes, et le ventre. Je n’étais pas très bon en sport, mais avec Abdouh, c’est différent. Il
-                        explique chaque exercice de manière claire. Même si je suis débutant, je comprends vite. Il m’aide
-                        à bien faire les mouvements et à rester motivé. À la fin de la séance, j'étais fatigué, mais c’est une
-                        bonne fatigue. Je sens que j’ai bien travaillé, et je suis fier de moi. Je me sens plus fort et plus
-                        confiant. C’est incroyable comment le sport peut changer mon humeur. En plus, ça m’aide à mieux
-                        me concentrer en classe. Je suis impatient maintenant d’aller à la salle.
+                    Côté sport, Abdouh ne se contente pas de donner des conseils : il m'accompagne à la salle de sport. Nous nous entraînons ensemble plusieurs fois par semaine, avec des exercices variés pour tout le corps. Même si je suis débutant, il prend le temps d’expliquer chaque mouvement de manière claire. Je me sens plus fort, plus confiant, et même plus concentré en classe après les séances. Le sport change vraiment mon humeur !
                     </p>
                     <p className="text-sm text-gray-700 mb-2">
-                        Alors, si vous voulez vous remettre en forme à l'AUI sans vous ruiner, je vous recommande
-                        de vous adresser à Abdouh. Il est super serviable et gentil, et offre des conseils sur l'alimentation
-                        saine et l'entraînement efficace pour 770 MAD, ce qui est négociable. Si vous pensez que c'est
-                        cher, vous n'avez qu'à comparer avec les frais de consultation d'autres entraîneurs ! Vous pouvez
-                        même consulter ses conseils sur sa page Instagram. Franchement, si je peux le faire, tout le monde
-                        peut le faire. Alors pourquoi ne pas essayer ?
+                    Alors, si vous voulez vous remettre en forme à l’AUI sans vous ruiner, je vous recommande de contacter Abdouh. Il est sympa, serviable, et propose des conseils en nutrition et en sport pour 770 MAD (prix négociable). Si ça vous semble cher, comparez avec d’autres entraîneurs ! Vous pouvez aussi suivre ses conseils sur sa page Instagram.
                     </p>
-                    
+                    Franchement, si moi j’y arrive, tout le monde peut le faire. Alors, pourquoi ne pas essayer ?
                     <p className="text-sm text-gray-700 mb-2">
-                        Voici le lien vers cette page:
+                        Pour plus d'informations, contactez Abdouh sur son Instagram :
                         <a href="https://www.instagram.com/kads_plan?igsh=NGdpM2dyejRreDVx" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
-                            https://www.instagram.com/kads_plan?igsh=NGdpM2dyejRreDVx
+                        [Instagram de Kad’s Plan](https://www.instagram.com/kads_plan?igsh=NGdpM2dyejRreDVx)
                         </a>
                     </p>
                 </div>
