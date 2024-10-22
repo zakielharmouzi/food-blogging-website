@@ -26,7 +26,9 @@ const firstArticles = [
 		url: "images/soysauce.jpg", // Updated image URL
 		text: "A refreshing and easy pasta salad recipe for summer....",
 		category: "Recipes",
+		
 	},
+	
 ];
 
 const secondArticles = [
@@ -50,11 +52,11 @@ const secondArticles = [
 	},
 ];
 
-const categories = ["All", "Planning", "Economy", "Food", "Recipes"]; // Category list
+const categories = ["Toutes", "Planning", "Economy", "Food", "Recipes"]; // Category list
 
 const Articles = () => {
 	const [counter, setCounter] = useState(1);
-	const [selectedCategory, setSelectedCategory] = useState("All"); // State to track selected category
+	const [selectedCategory, setSelectedCategory] = useState("Toutes"); // State to track selected category
 	const navigate = useNavigate();
 
 	let cardsList;
@@ -65,7 +67,7 @@ const Articles = () => {
 	}
 
 	// Filter articles based on selected category
-	const filteredArticles = selectedCategory === "All"
+	const filteredArticles = selectedCategory === "Toutes"
 		? cardsList
 		: cardsList.filter((article) => article.category === selectedCategory);
 
@@ -103,8 +105,9 @@ const Articles = () => {
 						onClick={() => handleCategoryChange(category)}
 						className={`border px-4 py-2 mx-2 rounded-lg ${
 							selectedCategory === category
-								? "bg-blue-500 text-white"
+								? "bg-red-500 text-white"
 								: "bg-gray-200"
+							
 						}`}>
 						{category}
 					</button>
@@ -143,7 +146,7 @@ const Articles = () => {
 				))}
 			</div>
 
-			{/* Pagination buttons */}
+			{/* Pagination buttons
 			<div className="flex justify-center items-center space-x-4 text-sm py-10">
 				<button
 					onClick={() => handlePrev()}
@@ -158,7 +161,7 @@ const Articles = () => {
 				>
 					&gt;
 				</button>
-			</div>
+			</div> */}
 		</div>
 	);
 };
