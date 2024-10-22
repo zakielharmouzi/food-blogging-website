@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import Article1 from "./components/Articles/Article1";
 import Article2 from "./components/Articles/Article2";
 import Article3 from "./components/Articles/Article3";
+import Article4 from "./components/Articles/Article4";
 
 const Layout = () => {
 	return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/Articles/kads-plan" element={<Article1 />} />
             <Route path="/Articles/”food-prices”-à-ifrane" element={<Article2 />} />
             <Route path="/Articles/mon-cuisine-étudiante-!" element={<Article3 />} />
+			<Route path="/Articles/delicious-pasta-salad" element={<Article4 />} />
         	</Routes>
 		</div>
 	);
