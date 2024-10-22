@@ -48,7 +48,7 @@ Quand la fin de mois inspire la cuisine étudiante.
 </h1>
                     <h2 className="text-xl font-semibold text-[#0E2368] mb-2">Par: AUI Student</h2>
                     <h3 className="text-lg font-semibold text-[#0E2368] mb-2">Date: 12/12/2022</h3>
-                    <h3 className="text-lg font-semibold text-[#0E2368] mb-2">Catégorie: Billet d'Humeur</h3>
+                    <h3 className="text-lg font-semibold text-[#0E2368] mb-2">Catégorie: Blog</h3>
                     <p className="text-sm text-gray-700 mb-2">
                     À l’Université, entre les cours, les projets, et le budget serré, manger bien n’est pas toujours facile. Un ingrédient a cependant changé ma façon de cuisiner depuis mon échange au Japon : la sauce soja. Depuis, elle est devenue indispensable dans mon frigo, parfaite pour mes petits plats rapides et délicieux.</p>
                 <div className="flex items-center justify-center ">

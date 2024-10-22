@@ -22,18 +22,36 @@ const firstArticles = [
 		category: "Food",
 	},
 	{
-		name: "Delicious Pasta Salad",
+		name: "Mon sauce favoris",
 		url: "images/soysauce.jpg", // Updated image URL
 		text: "A refreshing and easy pasta salad recipe for summer....",
 		category: "Recipes",
-		
 	},
+	{
+		name: "Mes place Favoris",
+		url: "images/tajine.png", // Updated image URL
+		text: "A refreshing and easy pasta salad recipe for summer....",
+		category: "Recipes",
+	},
+
+	// {
+	// 	name: "Delicious Pasta Salad",
+	// 	url: "images/soysauce.jpg", // Updated image URL
+	// 	text: "A refreshing and easy pasta salad recipe for summer....",
+	// 	category: "Recipes",
+	// },
+	// {
+	// 	name: "Delicious Pasta Salad",
+	// 	url: "images/soysauce.jpg", // Updated image URL
+	// 	text: "A refreshing and easy pasta salad recipe for summer....",
+	// 	category: "Recipes",
+	// },
 	
 ];
 
 const secondArticles = [
 	{
-		name: "How to Grill Corn",
+		name: "aaaa",
 		url: "images/tajine.png", // Updated image URL
 		text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry....",
 		category: "Recipes",
@@ -115,7 +133,7 @@ const Articles = () => {
 			</div>
 
 			{/* Cards */}
-			<div className="flex flex-col space-y-7 items-center space-x-1.5 lg:items-baseline lg:flex-row justify-between">
+			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 				{filteredArticles.map((item) => (
 					<div
 						key={item.name}
