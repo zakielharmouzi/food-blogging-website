@@ -1,4 +1,10 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
+import Article1 from "./articles/Article1";
+import Article2 from "./articles/Article2"; // Similarly create Article2.js
+import Article3 from "./articles/Article3"; // Similarly create Article3.js
+
+
 
 const firstArticles = [
 	{
@@ -39,59 +45,61 @@ const secondArticles = [
 const Articles = () => {
 	const [counter, setCounter] = useState(1);
 
-	let cardsList;
-	if (counter === 2) {
-		cardsList = secondArticles;
-	} else {
-		cardsList = firstArticles;
-	}
+	let cardsList = [];
+    if (counter === 2) {
+        cardsList = [
+            { name: "Article 2", component: <Article2 /> },
+            { name: "Article 3", component: <Article3 /> },
+        ];
+    } else {
+        cardsList = [
+            { name: "Grilled Tomatoes at Home", component: <Article1 /> },
+            { name: "Snacks for Travel", component: <Article2 /> },
+            { name: "Post-workout Recipes", component: <Article3 /> },
+        ];
+    }
+
 
 	return (
-		<div className=" flex flex-col p-10 pt-16 lg:px-36  ">
+		<div className="flex flex-col p-10 pt-16 lg:px-36">
 			{/* Latest Articles */}
-			<div className=" text-4xl lg:text-5xl font-bold text-[#0E2368] mb-12">
+			<div className="text-4xl lg:text-5xl font-bold text-[#0E2368] mb-12">
 				Nos Derniers Articles
 			</div>
 
 			{/* cards */}
-			<div className=" flex flex-col space-y-7 items-center lg:items-baseline lg:flex-row justify-between">
-				{cardsList.map((item) => {
-					return (
-						<div
-							key={item.name}
-							className=" flex flex-col space-y-5 border w-80 lg:w-[22rem] border-slate-300 bg-slate-50 rounded-3xl pt-3 pb-6 px-6">
-							<img
-								alt={item?.name}
-								src={item.url}
-								className=" my-2 "
-							/>
-							<div className=" flex flex-col items-center lg:items-start space-y-4">
-								<span className=" text-[#0E2368] text-center text-[1.35rem] lg:text-right font-bold lg:text-[1.5rem] ">
-									{item?.name}
-								</span>
-								<span className=" text-sm lg:text-xs line-clamp-5 lg:line-clamp-3 ">
-									{item?.text}
-								</span>
-								<button className=" border border-black p-2 px-5 text-sm rounded-full ">
-									Read More
-								</button>
-							</div>
+			<div className="flex flex-col space-y-7 items-center lg:items-baseline lg:flex-row justify-between">
+				{cardsList.map((item) => (
+					<div
+						key={item.name}
+						className="flex flex-col space-y-5 border w-80 lg:w-[22rem] border-slate-300 bg-slate-50 rounded-3xl pt-3 pb-6 px-6">
+						<img alt={item?.name} src={item.url} className="my-2" />
+						<div className="flex flex-col items-center lg:items-start space-y-4">
+							<span className="text-[#0E2368] text-center text-[1.35rem] lg:text-right font-bold lg:text-[1.5rem]">
+								{item?.name}
+							</span>
+							<span className="text-sm lg:text-xs line-clamp-5 lg:line-clamp-3">
+								{item?.text}
+							</span>
+							<Link to={`/articles/${item.name}`} className="border border-black p-2 px-5 text-sm rounded-full">
+								Read More
+							</Link>
 						</div>
-					);
-				})}
+					</div>
+				))}
 			</div>
 
 			{/* button */}
-			<div className=" flex justify-center items-center space-x-4 text-sm py-10 ">
+			<div className="flex justify-center items-center space-x-4 text-sm py-10">
 				<button
 					onClick={() => setCounter(1)}
-					className=" w-6 pb-1 px-1 rounded-md border border-slate-700 visited:bg-slate-200 ">
+					className="w-6 pb-1 px-1 rounded-md border border-slate-700 visited:bg-slate-200">
 					&lt;
 				</button>
-				<span className=" text-xl">{counter}/2</span>
+				<span className="text-xl">{counter}/2</span>
 				<button
 					onClick={() => setCounter(2)}
-					className=" w-6 pb-1 px-1 rounded-md border border-slate-700 visited:bg-slate-200 ">
+					className="w-6 pb-1 px-1 rounded-md border border-slate-700 visited:bg-slate-200">
 					&gt;
 				</button>
 			</div>
@@ -99,4 +107,4 @@ const Articles = () => {
 	);
 };
 
-export default Articles;
+export default Articles;	
