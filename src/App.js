@@ -3,9 +3,9 @@ import "./App.css";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
-import Article1 from "./components/articles/article1";
-import Article2 from "./components/articles/article2";
-import Article3 from "./components/articles/article3";
+import Article1 from "./components/Articles/Article1";
+import Article2 from "./components/Articles/Article2";
+import Article3 from "./components/Articles/Article3";
 
 
 const Layout = () => {
@@ -23,9 +23,9 @@ function App() {
 		<div className="">
 			 <Routes>
             <Route path="/" element={<Layout />} />
-            <Route path="/articles/kads-plan" element={<Article1 />} />
-            <Route path="/articles/Snacks-for-Travel" element={<Article2 />} />
-            <Route path="/articles/Post-workout-Recipes" element={<Article3 />} />
+            <Route path="/Articles/kads-plan" element={<Article1 />} />
+            <Route path="/Articles/Snacks-for-Travel" element={<Article2 />} />
+            <Route path="/Articles/Post-workout-Recipes" element={<Article3 />} />
         	</Routes>
 		</div>
 	);
