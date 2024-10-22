@@ -29,7 +29,7 @@ const firstArticles = [
 	},
 	{
 		name: "Mes place Favoris",
-		url: "images/tajine.png", // Updated image URL
+		url: "images/tajine1.png", // Updated image URL
 		text: "A refreshing and easy pasta salad recipe for summer....",
 		category: "Recipes",
 	},
