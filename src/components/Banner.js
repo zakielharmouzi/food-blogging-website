@@ -4,7 +4,7 @@ const Banner = () => {
 	return (
 		<div className=" h-full w-full m-0 flex flex-col lg:flex-row-reverse ">
 			<div className=" relative w-full lg:w-1/2 flex ">
-				<img alt="rectangle" src="images/tajine.png" className="" />
+				<img alt="rectangle" src="images/tajine.png" className="absolute top-0 right-0 w-[800px] h-[655px] " />
 				<img
 					alt="vector"
 					src="images/Vector 1.png"

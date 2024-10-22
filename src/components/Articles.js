@@ -5,8 +5,8 @@ import { useNavigate } from "react-router-dom";
 // Article data with image URLs
 const firstArticles = [
 	{
-		name: "Grilled Tomatoes at Home",
-		url: "images/tajine.png", // Updated image URL
+		name: "KADS Plan",
+		url: "images/kadsplan.jpg", // Updated image URL
 		text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley....",
 	},
 	{
@@ -81,24 +81,25 @@ const Articles = () => {
 			{/* cards */}
 			<div className="flex flex-col space-y-7 items-center lg:items-baseline lg:flex-row justify-between">
 				{cardsList.map((item) => (
-					<div
-						key={item.name}
-						className="flex flex-col space-y-5 border w-80 lg:w-[22rem] border-slate-300 bg-slate-50 rounded-3xl pt-3 pb-6 px-6">
-						<img alt={item?.name} src={item.url} className="my-2" />
-						<div className="flex flex-col items-center lg:items-start space-y-4">
-							<span className="text-[#0E2368] text-center text-[1.35rem] lg:text-right font-bold lg:text-[1.5rem]">
-								{item?.name}
-							</span>
-							<span className="text-sm lg:text-xs line-clamp-5 lg:line-clamp-3">
-								{item?.text}
-							</span>
-							<button
-								onClick={() => handleReadMore(item.name)}
-								className="border border-black p-2 px-5 text-sm rounded-full">
-								Read More
-							</button>
-						</div>
-					</div>
+					 <div key={item.name}  
+					 className="flex flex-col border w-80 lg:w-[22rem] border-slate-300 bg-slate-50 rounded-3xl p-4"  
+					 >  
+					 <img alt={item?.name} src={item.url} className="my-2 object-cover h-48" /> {/* Set a fixed height for images */}  
+					 <div className="flex flex-col flex-grow justify-between"> {/* Add flex-grow here */}  
+					 <div className="flex flex-col items-center lg:items-start space-y-4">  
+					 <span className="text-[#0E2368] text-center text-[1.35rem] lg:text-right font-bold lg:text-[1.5rem]">  
+					 {item?.name}  
+					 </span>  
+					 <span className="text-sm lg:text-xs line-clamp-5 lg:line-clamp-3">  
+					 {item?.text}  
+					 </span>  
+					 </div>  
+					 <button onClick={() => handleReadMore(item.name)}  
+					 className="border border-black p-2 px-5 text-sm mt-12 rounded-full self-end"  
+					 >  
+					 Read More </button>  
+					 </div>  
+					 </div>  
 				))}
 			</div>
 
