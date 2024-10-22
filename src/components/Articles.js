@@ -175,7 +175,7 @@ const Articles = () => {
 								onClick={() => handleReadMore(item.name)}
 								className="border border-black p-2 px-5 text-sm mt-12 rounded-full self-end"
 							>
-								Read More
+								En savoir plus
 							</button>
 						</div>
 					</div>

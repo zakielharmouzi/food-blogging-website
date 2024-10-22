@@ -14,7 +14,7 @@ const About = () => {
 					printer took a galley of type and scrambled it to make a
 					type specimen book. t has survived not only five centuries.
 				</span>
-				<button className=" max-w-fit bg-[#E23744] text-white text-sm rounded-full p-2 px-5 ">Read More</button>
+				<button className=" max-w-fit bg-[#E23744] text-white text-sm rounded-full p-2 px-5 ">En savoir plus</button>
 			</div>
 		</div>
 		</div>
