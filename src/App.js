@@ -7,7 +7,6 @@ import Article1 from "./components/Articles/Article1";
 import Article2 from "./components/Articles/Article2";
 import Article3 from "./components/Articles/Article3";
 
-
 const Layout = () => {
 	return (
 		<div className=" flex flex-col m-0 w-full">
