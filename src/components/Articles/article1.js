@@ -44,6 +44,9 @@ const Article1 = () => {
                 <div className="billet-dhumeur p-10 bg-slate-50 rounded-lg shadow-md">
                     <h1 className="text-2xl font-bold text-[#0E2368] mb-4">Faire du sport et bien A person standing in front of a mirror
 Descrip tion automatically generatedmanger à AUI, c'est facile ! </h1>
+                    <h2 className="text-xl font-semibold text-[#0E2368] mb-2">Par: AUI Student</h2>
+                    <h3 className="text-lg font-semibold text-[#0E2368] mb-2">Date: 12/12/2022</h3>
+                    <h3 className="text-lg font-semibold text-[#0E2368] mb-2">Catégorie: Billet d'Humeur</h3>
                 <div className="flex items-center justify-center ">
                     <img
                         src="../images/kadsplan.jpg"
