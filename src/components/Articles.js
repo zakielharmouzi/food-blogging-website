@@ -50,7 +50,7 @@ const Articles = () => {
 		<div className=" flex flex-col p-10 pt-16 lg:px-36  ">
 			{/* Latest Articles */}
 			<div className=" text-4xl lg:text-5xl font-bold text-[#0E2368] mb-12">
-				Latest Articles
+				Nos Derniers Articles
 			</div>
 
 			{/* cards */}
