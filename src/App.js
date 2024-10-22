@@ -24,7 +24,7 @@ function App() {
             <Route path="/" element={<Layout />} />
             <Route path="/Articles/kads-plan" element={<Article1 />} />
             <Route path="/Articles/”food-prices”-à-ifrane" element={<Article2 />} />
-            <Route path="/Articles/Post-workout-Recipes" element={<Article3 />} />
+            <Route path="/Articles/mon-cuisine-étudiante-!" element={<Article3 />} />
         	</Routes>
 		</div>
 	);
