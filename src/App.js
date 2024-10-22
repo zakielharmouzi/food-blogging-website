@@ -23,7 +23,7 @@ function App() {
 			 <Routes>
             <Route path="/" element={<Layout />} />
             <Route path="/Articles/kads-plan" element={<Article1 />} />
-            <Route path="/Articles/Snacks-for-Travel" element={<Article2 />} />
+            <Route path="/Articles/”food-prices”-à-ifrane" element={<Article2 />} />
             <Route path="/Articles/Post-workout-Recipes" element={<Article3 />} />
         	</Routes>
 		</div>
