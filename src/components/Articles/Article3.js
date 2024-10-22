@@ -83,7 +83,6 @@ const Article3 = () => {
                     Alors, si toi aussi tu es étudiant(e), en galère pour trouver des idées de repas sympas, je te conseille de tester un mash-up. C’est un moyen simple de mettre un peu de fun dans tes repas, d’économiser de l’argent, et surtout, de découvrir de nouvelles saveurs sans trop d’effort. Lance-toi, qui sait, tu trouveras peut-être ta prochaine recette préférée !
                     </p>
                 </div>
-               
             </div>
 
             {/* Right Advertisement */}
