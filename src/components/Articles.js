@@ -7,49 +7,49 @@ const firstArticles = [
 		name: "KADS Plan",
 		url: "images/kadsplan.jpg", // Updated image URL
 		text: "Salut à tous ! Aujourd'hui, je veux vous partager une découverte super intéressante : mon ami Abdouh, étudiant comme nous, est aussi coach sportif ! Oui, un coach ici, à AUI, qui a créé son propre programme appelé Kad’s Pla...",
-		category: "Planning",
+		category: "Billet d'Humeur",
 	},
 	{
 		name: "”food prices” à Ifrane",
 		url: "images/increasing.png", // Updated image URL
 		text: "Quand je suis arrivé ce semestre à Al Akhawayn, je m'attendais à ce que les prix restent à peu près les mêmes, autant à l'université qu'en ville. Mais j'ai vite remarqué que les prix, surtout pour la nourriture...",
-		category: "Economy",
+		category: "Billet d'Humeur",
 	},
 	{
 		name: "Mon Cuisine Étudiante !",
 		url: "images/mashups.jpeg", // Updated image URL
 		text: "Ces derniers temps, un nouveau trend gastronomique explose sur TikTok : les mash-ups de recettes classiques. Le principe est simple : mélanger deux plats connus pour en faire un seul. Imagine une pizza...",
-		category: "Food",
+		category: "Billet d'Humeur",
 	},
 	{
 		name: "Mon sauce favoris",
 		url: "images/soysauce.jpg", // Updated image URL
 		text: "À l’Université, entre les cours, les projets, et le budget serré, manger bien n’est pas toujours facile. Un ingrédient a cependant changé ma façon de cuisiner depuis mon échange au Japon : la sauce soja.",
-		category: "Recipes",
+		category: "Dans mon frigo ?",
 	},
 	{
 		name: "Mes place Favoris",
 		url: "images/tajine1.png", // Updated image URL
 		text: "Ifrane, cette petite ville nichée dans les montagnes de l'Atlas, regorge de trésors culinaires et de paysages enchanteurs. Si tu es étudiant(e) et que tu cherches de bons plans pour te régaler sans te...",
-		category: "Recipes",
+		category: "Gérer mon budget",
 	},
 	{
 		name: "Innovation bien faite",
 		url: "images/ilyas1.jpeg", // Updated image URL
 		text: "L'innovation est au centre des affaires, une entreprise qui innove est une entreprise qui réussit. C’est le cas pour la marque marocaine Chergui, qui produit des différentes gammes de prix laitiers. Cette année...",
-		category: "innovation",
+		category: "Billet d'Humeur",
 	},
 	{
 		name: "Manger Bien à l'AUI",
 		url: "images/ilyas4.jpg", // Updated image URL
 		text: "Si comme moi, tu trouves qu'équilibrer entre les sorties et les besoins budgétaires de nourritures est difficile, alors cet article est pour toi. Manger sans vider son portefeuille est tout à fait possible, et je va...",
-		category: "Economy",
+		category: "Manger sainement",
 	},
 	{
 		name: "Manger Sainement à AUI",
 		url: "images/grp1.png", // Updated image URL
 		text: "Découvrir l'importance de manger sainement à AUI a été une révélation pour moi. Avant, je pensais que c'était compliqué et coûteux, mais j’ai appris que manger équilibré peut être simple et abordable....",
-		category: "Recipes",
+		category: "Recettes",
 	},
 
 	// {
@@ -88,7 +88,7 @@ const secondArticles = [
 	},
 ];
 
-const categories = ["Toutes", "Planning", "Economy", "Food", "Recipes"]; // Category list
+const categories = ["Toutes", "Recettes", "Gérer mon budget", "Manger sainement", "Dans mon frigo ?",  "Billet d'Humeur"];
 
 const Articles = () => {
 	const [counter, setCounter] = useState(1);
