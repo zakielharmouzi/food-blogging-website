@@ -32,9 +32,9 @@ function App() {
             <Route path="/" element={<Layout />} />
             <Route path="/Articles/kads-plan" element={<Article1 />} />
             <Route path="/Articles/”food-prices”-à-ifrane" element={<Article2 />} />
-            <Route path="/Articles/mon-cuisine-étudiante-!" element={<Article3 />} />
-			<Route path="/Articles/mon-sauce-favoris" element={<Article4 />} />
-			<Route path="/Articles/mes-place-favoris" element={<Article5 />} />
+            <Route path="/Articles/ma-cuisine-étudiante-!" element={<Article3 />} />
+			<Route path="/Articles/ma-sauce-favorite" element={<Article4 />} />
+			<Route path="/Articles/Mes-places-favorites" element={<Article5 />} />
 			<Route path="/Articles/innovation-bien-faite" element={<Article6 />} />
 			<Route path="/Articles/manger-bien-à-l'aui" element={<Article7 />} />
 			<Route path="/Articles/manger-sainement-à-aui" element={<Article8 />} />

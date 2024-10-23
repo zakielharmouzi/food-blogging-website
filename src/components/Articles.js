@@ -4,34 +4,34 @@ import { useNavigate } from "react-router-dom";
 // Article data with image URLs
 const firstArticles = [
 	{
-		name: "KADS Plan",
-		url: "images/kadsplan.jpg", // Updated image URL
-		text: "Salut à tous ! Aujourd'hui, je veux vous partager une découverte super intéressante : mon ami Abdouh, étudiant comme nous, est aussi coach sportif ! Oui, un coach ici, à AUI, qui a créé son propre programme appelé Kad’s Pla...",
-		category: "Billet d'Humeur",
-	},
-	{
 		name: "”food prices” à Ifrane",
 		url: "images/increasing.png", // Updated image URL
 		text: "Quand je suis arrivé ce semestre à Al Akhawayn, je m'attendais à ce que les prix restent à peu près les mêmes, autant à l'université qu'en ville. Mais j'ai vite remarqué que les prix, surtout pour la nourriture...",
 		category: "Billet d'Humeur",
 	},
 	{
-		name: "Mon Cuisine Étudiante !",
+		name: "Ma Cuisine Étudiante !",
 		url: "images/mashups.jpeg", // Updated image URL
 		text: "Ces derniers temps, un nouveau trend gastronomique explose sur TikTok : les mash-ups de recettes classiques. Le principe est simple : mélanger deux plats connus pour en faire un seul. Imagine une pizza...",
 		category: "Billet d'Humeur",
 	},
 	{
-		name: "Mon sauce favoris",
+		name: "Ma sauce favorite",
 		url: "images/soysauce.jpg", // Updated image URL
 		text: "À l’Université, entre les cours, les projets, et le budget serré, manger bien n’est pas toujours facile. Un ingrédient a cependant changé ma façon de cuisiner depuis mon échange au Japon : la sauce soja.",
 		category: "Dans mon frigo ?",
 	},
 	{
-		name: "Mes place Favoris",
+		name: "Mes places favorites",
 		url: "images/tajine1.png", // Updated image URL
 		text: "Ifrane, cette petite ville nichée dans les montagnes de l'Atlas, regorge de trésors culinaires et de paysages enchanteurs. Si tu es étudiant(e) et que tu cherches de bons plans pour te régaler sans te...",
 		category: "Gérer mon budget",
+	},
+	{
+		name: "KADS Plan",
+		url: "images/kadsplan.jpg", // Updated image URL
+		text: "Salut à tous ! Aujourd'hui, je veux vous partager une découverte super intéressante : mon ami Abdouh, étudiant comme nous, est aussi coach sportif ! Oui, un coach ici, à AUI, qui a créé son propre programme appelé Kad’s Pla...",
+		category: "Billet d'Humeur",
 	},
 	{
 		name: "Innovation bien faite",
@@ -88,7 +88,7 @@ const secondArticles = [
 	},
 ];
 
-const categories = ["Toutes", "Recettes", "Gérer mon budget", "Manger sainement", "Dans mon frigo ?",  "Billet d'Humeur"];
+const categories = ["Toutes", "Dans mon frigo ?","Gérer mon budget", "Recettes", "Manger sainement",  "Billet d'Humeur"];
 
 const Articles = () => {
 	const [counter, setCounter] = useState(1);
