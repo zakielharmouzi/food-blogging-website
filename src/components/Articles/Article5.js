@@ -131,14 +131,14 @@ const Article5 = () => {
                 </div>
 
                 <div className="flex flex-col space-y-3 lg:w-1/4 p-10">
-                    <h2 className="font-semibold text-[#0E2368] text-xl">Contact Us</h2>
+                    <h2 className="font-semibold text-[#0E2368] text-xl">Contactez-nous</h2>
                     <ul className="flex flex-col space-y-3">
                         <li className="font-normal text-[#646874] text-sm">
                             Lorem Ipsum Pvt Ltd. 5/1, Magalton Road, Phartosh Gate
                             near YTM Market, XYZ-343434
                         </li>
-                        <li className="text-[#646874] text-sm">example2020@gmail.com</li>
-                        <li className="text-[#646874] text-sm">(904) 443-0343</li>
+                        <li className="text-[#646874] text-sm">Z.elharmouzi@aui.ma</li>
+                        <li className="text-[#646874] text-sm">(212) 12345678</li>
                     </ul>
                 </div>
 
@@ -148,12 +148,12 @@ const Article5 = () => {
                         <li className="text-[#646874] text-sm">About Us</li>
                         <li className="text-[#646874] text-sm">Products</li>
                         <li className="text-[#646874] text-sm">Career</li>
-                        <li className="text-[#646874] text-sm">Contact Us</li>
+                        <li className="text-[#646874] text-sm">Contactez-nous</li>
                     </ul>
                 </div>
 
                 <div className="flex flex-col lg:flex-col-reverse lg:w-1/4 items-center space-y-2 justify-evenly p-10">
-                    <p className="text-sm my-4 text-slate-500">© 2022 Food Truck Example</p>
+                    <p className="text-sm my-4 text-slate-500">Made with love by the best french group</p>
                     <h2 className="text-xl font-semibold hidden lg:block text-[#0E2368] order-2">Social Media</h2>
                     <ul className="flex justify-center space-x-5">
                         <li><img alt="instagram" src="../images/icons/instagram.png" className="h-4 w-4" /></li>
